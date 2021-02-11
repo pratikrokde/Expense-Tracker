@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { GlobalContext } from "../Context/GlobalContext";
 
 function TransactionList() {
-  const { transactions } = useContext(GlobalContext);
+  const { deleteTransaction, transactions } = useContext(GlobalContext);
   // console.log(transactions);
   return (
     <>
@@ -13,7 +13,12 @@ function TransactionList() {
           return (
             <li className={amount > 0 ? "plus" : "minus"} key={id}>
               {text} <span>{amount}</span>
-              <button className="delete-btn">x</button>
+              <button
+                className="delete-btn"
+                onClick={() => deleteTransaction(trans.id)}
+              >
+                x
+              </button>
             </li>
           );
         })}
