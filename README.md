@@ -1,4 +1,4 @@
-# Movie Trendz 🎬
+# Expense Tracker
 
 Expense Tracker build with React.JS
 
