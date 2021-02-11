@@ -15,7 +15,7 @@ Expense Tracker build with React.JS
 
 ### Live at 🌏:
 
-[Demo](https://react-movies-trend.netlify.app/)
+[Demo](https://expense-tracker99.netlify.app/)
 
 # Quick Start :
 
